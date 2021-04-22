@@ -1,0 +1,24 @@
+<ul>
+  <li>
+    <a href={{href-to "static"}}>Static</a>
+  </li>
+  <li>
+    <a href={{href-to "dynamic"}}>Dynamic Index</a>:
+    <ul>
+      <li>
+        <a href={{href-to "dynamic.view" 1}}>Dynamic 1</a>
+      </li>
+      <li>
+        <a href={{href-to "dynamic.view" 2}}>Dynamic 2</a>
+      </li>
+      <li>
+        <a href={{href-to "dynamic.view" 3}}>Dynamic 3</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href={{href-to "queryparam"}}>Route with Query Param</a>
+  </li>
+</ul>
+
+{{outlet}}
